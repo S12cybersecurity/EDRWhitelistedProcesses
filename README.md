@@ -15,7 +15,6 @@ This README outlines the enumeration process, practical attack methods, and prov
 - [Implementation](#implementation)
   - [Code Explanation](#code-explanation)
   - [Libraries](#libraries)
-- [Attack Scenario](#attack-scenario)
 - [Countermeasures](#countermeasures)
 
 ---
