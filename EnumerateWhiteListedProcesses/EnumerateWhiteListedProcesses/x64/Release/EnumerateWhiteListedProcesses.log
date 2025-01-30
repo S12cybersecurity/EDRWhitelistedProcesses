@@ -1,10 +1,9 @@
 ﻿  EnumerateWhiteListedProcesses.cpp
-C:\Users\s12\Documents\GitHub\Evasion\Techniques\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses.cpp(62,10): warning C4834: discarding return value of function with [[nodiscard]] attribute
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
   (compiling source file 'EnumerateWhiteListedProcesses.cpp')
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18):
       the template instantiation context (the oldest one first) is
-          C:\Users\s12\Documents\GitHub\Evasion\Techniques\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses.cpp(52,16):
+          C:\Users\s12\Documents\GitHub\Evasion\Techniques\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses.cpp(49,22):
           see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
@@ -12,7 +11,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.3443
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-              C:\Users\s12\Documents\GitHub\Evasion\Techniques\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses.cpp(52,3):
+              C:\Users\s12\Documents\GitHub\Evasion\Techniques\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses\EnumerateWhiteListedProcesses.cpp(49,9):
               see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'getProcessNameByPID'
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(793,17):
           see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
@@ -34,7 +33,8 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.3443
           ]
   
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 529 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  2 of 543 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   EnumerateWhiteListedProcesses.vcxproj -> C:\Users\s12\Documents\GitHub\Evasion\Techniques\EnumerateWhiteListedProcesses\x64\Release\EnumerateWhiteListedProcesses.exe
