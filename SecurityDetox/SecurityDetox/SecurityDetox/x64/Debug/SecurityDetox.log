@@ -1,0 +1,31 @@
+﻿  SecurityDetox.cpp
+V:\MalwareDeveloped\SecurityDetox\SecurityDetox\SecurityDetox\SecurityDetox.cpp(31,9): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2584,17): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(3426,32): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+V:\MalwareDeveloped\SecurityDetox\SecurityDetox\SecurityDetox\SecurityDetox.cpp(53,12): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+V:\MalwareDeveloped\SecurityDetox\SecurityDetox\SecurityDetox\SecurityDetox.cpp(53,19): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign' in 'ListModules'
+  SecurityDetox.vcxproj -> V:\MalwareDeveloped\SecurityDetox\SecurityDetox\x64\Debug\SecurityDetox.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
